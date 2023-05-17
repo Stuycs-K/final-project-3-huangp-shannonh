@@ -1,19 +1,19 @@
 # Work Log
 
-## GROUP MEMBER 1
+## Perry Huang
 
-### date x
+### 5/17/23
 
-info
+Worked with Henry to decide on a final topic and provided moral support for Henry.
 
 ### date y
 
 info
 
 
-## GROUP MEMBER 2
+## Henry Shannon
 
-### date x
+### 5/17/23
 
 info
 
