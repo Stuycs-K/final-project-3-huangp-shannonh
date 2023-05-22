@@ -8,7 +8,7 @@ Worked with Henry to decide on a final topic and provided moral support for Henr
 
 ### 5/22/23
 
-
+Changed presentation.md to have not a link to slides and actually stuff in markdown.
 
 
 

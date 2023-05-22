@@ -11,3 +11,8 @@ Some forms of audio steganography:
 5. Ciphers
 
 ## What is Echo Hiding?
+
+Echo hiding is encoding data into audio in the form of echoes that are imperceptible to the human ear. 
+
+It works by shifting the phase by a small amount.
+![meow](echo.png)
