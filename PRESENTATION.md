@@ -1,5 +1,13 @@
 # This document is required.
 
-Link to Slides: [https://docs.google.com/presentation/d/1IYlYaimTx_AGpWqqdAMWfOnQ1zCUnG79B35t73gds6o/edit?usp=sharing](https://docs.google.com/presentation/d/1IYlYaimTx_AGpWqqdAMWfOnQ1zCUnG79B35t73gds6o/edit?usp=sharing)
+Audio Steganography is hiding a message in sounds!
+Since we're hiding a message in sounds, we probably wouldn;t want the others to hear the encoded message in the original sound, so we either use a noisy audio message or a subtle *
 
-Note: You need a Stuyvesant email to view it.
+Some forms of audio steganography:
+1. Phase Coding
+2. Spread Spectrum
+3. Echo Hiding
+4. Visual Wave Images
+5. Ciphers
+
+## What is Echo Hiding?
