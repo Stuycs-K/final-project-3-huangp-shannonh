@@ -5,10 +5,23 @@ Since we're hiding a message in sounds, we probably wouldn;t want the others to 
 
 Some forms of audio steganography:
 1. Phase Coding
+    - Frequency shifting
+
 2. Spread Spectrum
-3. Echo Hiding
+    - Uses a key that both the encoder and receiver know to "multiply" the message and encode it into the audio file.
+
+3. <b>Echo Hiding</b>
+    - Hiding data in an echo
+
 4. Visual Wave Images
-5. Ciphers
+    - Hiding data visually in wave graphs of audio
+    - Doom did this in their sound track!
+
+5. Least Significant Bit
+    - Similar to stegohide
+
+6. Ciphers
+    - Examples: morse code, musical cryptograms
 
 ## What is Echo Hiding?
 
