@@ -10,6 +10,9 @@ Worked with Henry to decide on a final topic and provided moral support for Henr
 
 Changed presentation.md to have not a link to slides and actually stuff in markdown.
 
+### 5/23/23
+
+Updated presentation.md to have a better picture and explained echo hiding more in depth. Also added some placeholders to fill in later.
 
 
 
