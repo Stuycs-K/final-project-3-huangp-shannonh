@@ -42,7 +42,7 @@ The blue curve has a much lower amplitude and persists for less time. It also ha
 
 The message is encoded in sound by making an echo for each "block" of sound.
 
-![Echo hiding by block of sound](Images/EchoHidingExplanation.png)
+<img src="Images/EchoHidingExplanation.png" width="45%" height=40%> </img>
 
 The original block of sound can be shifted by a certain offset to represent 1 or a longer offset to represent 0. Some echo hiding steganography may also represent 0 with no offset at all, meaning there is no echo for that block of sound. The offset can also be negative.
 
