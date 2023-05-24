@@ -26,3 +26,6 @@ Added onto the presentation slides
 
 ### 5/22/23
 Worked with Perry to add content to presentation.md. Also added more to the explanations on my own at home.
+
+### 5/23/23
+Organized images into a file. Explained encoding + decoding for echo hiding in presentation.md. Added another picture.
