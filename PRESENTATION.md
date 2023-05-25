@@ -1,4 +1,4 @@
-# This document is required.
+# Audio Steganography: Echo Hiding
 
 Audio Steganography is hiding a message in sounds. We'll mainly look at audio steganography as waves rather than as bits for the sake of explaining the concept of encoding and decoding.
 
