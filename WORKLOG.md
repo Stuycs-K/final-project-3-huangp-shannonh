@@ -14,6 +14,9 @@ Changed presentation.md to have not a link to slides and actually stuff in markd
 
 Updated presentation.md to have a better picture and explained echo hiding more in depth. Also added some placeholders to fill in later.
 
+### 5/25/23
+
+Made explanation of decoding in presentation better.
 
 
 ## Henry Shannon
