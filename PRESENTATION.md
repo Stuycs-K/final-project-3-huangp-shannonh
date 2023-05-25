@@ -48,6 +48,10 @@ The original block of sound can be shifted by a certain offset to represent 1 or
 
 So in order to encode a message, we can split it into binary and create an echo for each fraction of the audio depending on whether the binary is a 0 or a 1. In order to decode the message, we can read through each fraction of the sound and see where the sounds repeat at a lower volume by using a computer.
 
-[sounds a bit iffy ^^]
+
+### Example
+
+<img src = "Images/An-example-of-echo-hiding.png"> </img>
+
 
 [how to do your own echo hiding maybe]
