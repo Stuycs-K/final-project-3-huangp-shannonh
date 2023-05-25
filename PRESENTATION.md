@@ -50,6 +50,9 @@ So in order to encode a message, we can split it into binary and create an echo 
 
 In order to decode the message, we can compare the sound file with the echoes with the original sound file to find out where there are actually echoes. This technique is called autocorrelation.
 
+<img src = "Images/echo3.png"> </img>
+
+The green sine wave is altered with the echo while the black sine wave is just sin(x). By comparing these two we can clearly see some differences from 0 to pi, which will be where the echo is added.
 
 ### Example
 
