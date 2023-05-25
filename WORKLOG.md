@@ -29,3 +29,6 @@ Worked with Perry to add content to presentation.md. Also added more to the expl
 
 ### 5/23/23
 Organized images into a file. Explained encoding + decoding for echo hiding in presentation.md. Added another picture.
+
+### 5/24/23
+Added an image, gave an example to help explain echo hiding.
