@@ -46,7 +46,9 @@ The message is encoded in sound by making an echo for each "block" of sound.
 
 The original block of sound can be shifted by a certain offset to represent 1 or a longer offset to represent 0. Some echo hiding steganography may also represent 0 with no offset at all, meaning there is no echo for that block of sound. The offset can also be negative.
 
-So in order to encode a message, we can split it into binary and create an echo for each fraction of the audio depending on whether the binary is a 0 or a 1. In order to decode the message, we can read through each fraction of the sound and see where the sounds repeat at a lower volume by using a computer.
+So in order to encode a message, we can split it into binary and create an echo for each fraction of the audio depending on whether the binary is a 0 or a 1. 
+
+In order to decode the message, we can compare the sound file with the echoes with the original sound file to find out where there are actually echoes. This technique is called autocorrelation.
 
 
 ### Example
