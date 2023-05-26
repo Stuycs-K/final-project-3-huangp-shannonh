@@ -40,7 +40,7 @@ This picture depicts two sine curves. The green one is the original signal while
 
 The blue curve has a much lower amplitude and persists for less time. It also has a phase shift, but that is hard to tell from the picture.
 
-The message is encoded in sound by making an echo for each "block" of sound.
+The message is encoded in sound by making an echo for each "block" of sound. These segments can be arbitrarily divided (i.e. evenly or unevenly).
 
 <img src="Images/EchoHidingExplanation.png" width="45%" height=40%> </img>
 
@@ -60,5 +60,6 @@ Here is an example of what happens on a larger scale.
 
 <img src = "Images/An-example-of-echo-hiding.png"> </img>
 
+We have an audio file here that is separated into blocks of even length. 
 
 [how to do your own echo hiding maybe]
