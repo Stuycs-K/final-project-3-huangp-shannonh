@@ -54,7 +54,9 @@ In order to decode the message, we can compare the sound file with the echoes wi
 
 The green sine wave is altered with the echo while the black sine wave is just sin(x). By comparing these two we can clearly see some differences from 0 to pi, which will be where the echo is added.
 
-### Example
+
+
+Here is an example of what happens on a larger scale.
 
 <img src = "Images/An-example-of-echo-hiding.png"> </img>
 
