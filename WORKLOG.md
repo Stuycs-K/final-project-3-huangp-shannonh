@@ -35,3 +35,6 @@ Organized images into a file. Explained encoding + decoding for echo hiding in p
 
 ### 5/24/23
 Added an image, gave an example to help explain echo hiding.
+
+### 5/25/23
+Photoshopped image to better fit explanations.
