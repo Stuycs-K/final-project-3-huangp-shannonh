@@ -62,4 +62,10 @@ Here is an example of what happens on a larger scale.
 
 We have an audio file here that is separated into blocks of even length. 
 
+## Echo hiding demo in Audacity
+
+[include example audio file]
+
+[Add pictures to model each step for the people who aren't here]
+
 [how to do your own echo hiding maybe]
