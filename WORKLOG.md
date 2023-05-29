@@ -38,3 +38,9 @@ Added an image, gave an example to help explain echo hiding.
 
 ### 5/25/23
 Photoshopped image to better fit explanations.
+
+### 5/26/23
+Learned how to use Audacity to demo phase shifting.
+
+### 5/28/23
+Photoshopped image, fixed presentation notes, researching how to decode echo hiding.
