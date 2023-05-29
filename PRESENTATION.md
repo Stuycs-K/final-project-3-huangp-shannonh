@@ -1,8 +1,6 @@
 # Audio Steganography: Echo Hiding
 
-Audio Steganography is hiding a message in sounds. We'll mainly look at audio steganography as waves rather than as bits for the sake of explaining the concept of encoding and decoding.
-
-Since we're hiding a message in sounds, we probably wouldn;t want the others to hear the encoded message in the original sound, so we either alter a noisy audio message or use something that humans can't hear.
+Audio Steganography is hiding a message in sounds. We'll mainly look at audio steganography as waves rather than as bits for the sake of explaining the concept of encoding and decoding. We don't want others to hear the encoded message in the original sound, so we will either alter a noisy audio message or use something that humans can't hear.
 
 Some forms of audio steganography:
 1. <b>Echo Hiding</b>
@@ -54,17 +52,14 @@ In order to decode the message, we can compare the sound file with the echoes wi
 
 The green sine wave is altered with the echo while the black sine wave is just sin(x). By comparing these two we can clearly see some differences from 0 to pi, which will be where the echo is added.
 
-
-
 Here is an example of what happens on a larger scale.
 
 <img src = "Images/An-example-of-echo-hiding.png"> </img>
 
-We have an audio file here that is separated into blocks of even length. 
-
 ## Echo hiding demo in Audacity
 
 [include example audio file]
+https://www.youtube.com/watch?v=W-51cjlk2fk
 
 [Add pictures to model each step for the people who aren't here]
 
