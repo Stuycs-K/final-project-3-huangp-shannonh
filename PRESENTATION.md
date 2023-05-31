@@ -62,10 +62,12 @@ We can find the cepstrum by using a Fourier function transformation. Given that 
 
 ## Echo hiding demo in Audacity
 How to echo hide!
-1. In order to split the audio, we'll need to create regular intervals by going to `Tools` -> `Regular Interval Labels`.
-2. A popup should appear with options.
-
-
+1. Highlight the track that you want to split. 
+2.In order to split the audio, we'll need to create regular intervals by going to `Tools` -> `Regular Interval Labels`.
+3. A popup should appear with options. For `Create labels based on:`, select `Number of Labels`. This will make the length of the labels only dependent on how many there are. Then type in how many labels you would like. Then for `Adjust label interval to fit length` change the option to `Yes`. Click apply.
+4. There should be a label created at the bottom with the intervals. Now just cut the audio at the intervals manually. 
+5. For each interval, highlight the interval and go to `Effect` -> `Echo` (or on some versions of audacity `Effect` -> `Delay and Reverb` -> `Echo`). Then select the delay (phase shift) and the decay factor (amplitude). 
+6. Boom, you have audio that has a basic form of echo hiding.
 
 [include example audio file]
 https://www.youtube.com/watch?v=W-51cjlk2fk

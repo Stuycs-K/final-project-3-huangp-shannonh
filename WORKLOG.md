@@ -16,11 +16,11 @@ Updated presentation.md to have a better picture and explained echo hiding more 
 
 ### 5/25/23
 
-Made explanation of decoding in presentation better. Added another example and some more explanation for how to find echoes. Deleted extraneous images.
+Made explanation of decoding in presentation better. Added another example and some more explanation for how to find echoes. 
 
 ### 5/30/23 
 
-Worked with Henry to upload some tutorials on how to do stuff and added more to presentation.md.
+Worked with Henry to upload some tutorials on how to do stuff and added more to presentation.md. Deleted extraneous images. Added more explanations on how to do echo hiding on your own in Audacity.
 
 ## Henry Shannon
 
