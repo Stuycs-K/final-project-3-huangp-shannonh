@@ -49,4 +49,4 @@ Learned how to use Audacity to demo phase shifting.
 Photoshopped image, fixed presentation notes, researching how to decode echo hiding.
 
 ### 5/30/23
-Added a picture and the explanation for decoding echo hiding.
+Added a picture and the explanation for decoding echo hiding. Helped Perry with the demonstration notes by going over Audacity together.
