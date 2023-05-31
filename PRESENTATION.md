@@ -52,22 +52,25 @@ In order to decode the message, we can compare the sound file with the echoes wi
 
 The green sine wave is altered with the echo while the black sine wave is just sin(x). By comparing these two we can clearly see some differences from 0 to pi, which will be where the echo is added.
 
-Here is a larger example.
 
-Given the encoded message, we need to find the delay before the echo is produced. Generally humans wouldn't be able to pick it up by ear, but the computer should be able to. But we can still emphasize the echo by finding the "cepstrum."
+## How to decode
+Given the encoded message, we need to find the delay before the echo is produced. Generally humans wouldn't be able to pick it up by ear, but the computer should be able to. But we can still emphasize the echo by finding the "cepstrum," which is a 
 
 We can find the cepstrum by using a Fourier function transformation. Given that f(x) is the formula for the encoded audio, the cepstrum is $f^{-1}(ln(f(x))^{2})$. And by transforming the encoded audio message like this, we can see the echoes more clearly in a graph and can then determine the peaks of the echo, and autocorrelate it with itself to find which is the most likely delay for '0s' and '1s'.
 
 <img src = "Images/Cepstrum.png"> </img>
 
 ## Echo hiding demo in Audacity
+
+[when demo, duplicate audio file for before and after]
+[include example audio file]
+
 How to echo hide!
 1. Highlight the track that you want to split. 
-2.In order to split the audio, we'll need to create regular intervals by going to `Tools` -> `Regular Interval Labels`.
+2. In order to split the audio, we'll need to create regular intervals by going to `Tools` -> `Regular Interval Labels`.
 3. A popup should appear with options. For `Create labels based on:`, select `Number of Labels`. This will make the length of the labels only dependent on how many there are. Then type in how many labels you would like. Then for `Adjust label interval to fit length` change the option to `Yes`. Click apply.
 4. There should be a label created at the bottom with the intervals. Now just cut the audio at the intervals manually. 
 5. For each interval, highlight the interval and go to `Effect` -> `Echo` (or on some versions of audacity `Effect` -> `Delay and Reverb` -> `Echo`). Then select the delay (phase shift) and the decay factor (amplitude). 
 6. Boom, you have audio that has a basic form of echo hiding.
 
-[include example audio file]
-https://www.youtube.com/watch?v=W-51cjlk2fk
+Note: The `Ctrl + r` keyboard shortcut will reproduce the previous transformation onto the highlighted audio clip.
