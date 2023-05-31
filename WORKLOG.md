@@ -18,6 +18,9 @@ Updated presentation.md to have a better picture and explained echo hiding more 
 
 Made explanation of decoding in presentation better. Added another example and some more explanation for how to find echoes.
 
+### 5/30/23 
+
+Worked with Henry to upload some tutorials on how to do stuff and added more to presentation.md.
 
 ## Henry Shannon
 
