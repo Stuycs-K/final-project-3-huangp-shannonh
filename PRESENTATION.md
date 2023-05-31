@@ -48,24 +48,23 @@ So in order to encode a message, we can split it into binary and create an echo 
 
 In order to decode the message, we can compare the sound file with the echoes with the original sound file to find out where there are actually echoes. This technique is called autocorrelation.
 
-[how to decode without knowing orgiinal?]
-
 <img src = "Images/echo3.png"> </img>
 
 The green sine wave is altered with the echo while the black sine wave is just sin(x). By comparing these two we can clearly see some differences from 0 to pi, which will be where the echo is added.
 
 Here is a larger example.
 
-Given the encoded message, we break it apart into sections.
-<img src = "Images/An-example-of-echo-hiding.png"> </img>
+Given the encoded message, we need to find the delay before the echo is produced. Generally humans wouldn't be able to pick it up by ear, but the computer should be able to. But we can still emphasize the echo by finding the "cepstrum."
 
+We can find the cepstrum by using a function transformation. Given that f(x) is the formula for the encoded audio, the cepstrum is $f^{-1}(ln(f(x))^{2})$. And by transforming the encoded audio message like this, we can see the echoes more clearly in a graph and can then determine the peaks of the echo, and autocorrelate it with itself to find which is the most likely delay for '0s' and '1s'.
 
+<img src = "Images/Cepstrum.png"> </img>
 
 ## Echo hiding demo in Audacity
+How to echo hide!
+1. In order to split the audio, we'll need to create regular intervals by 
+
+
 
 [include example audio file]
 https://www.youtube.com/watch?v=W-51cjlk2fk
-
-[Add pictures to model each step for the people who aren't here]
-
-[how to do your own echo hiding maybe]
