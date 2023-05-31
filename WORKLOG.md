@@ -16,7 +16,7 @@ Updated presentation.md to have a better picture and explained echo hiding more 
 
 ### 5/25/23
 
-Made explanation of decoding in presentation better. Added another example and some more explanation for how to find echoes.
+Made explanation of decoding in presentation better. Added another example and some more explanation for how to find echoes. Deleted extraneous images.
 
 ### 5/30/23 
 
