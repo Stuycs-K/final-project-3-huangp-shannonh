@@ -56,13 +56,14 @@ Here is a larger example.
 
 Given the encoded message, we need to find the delay before the echo is produced. Generally humans wouldn't be able to pick it up by ear, but the computer should be able to. But we can still emphasize the echo by finding the "cepstrum."
 
-We can find the cepstrum by using a function transformation. Given that f(x) is the formula for the encoded audio, the cepstrum is $f^{-1}(ln(f(x))^{2})$. And by transforming the encoded audio message like this, we can see the echoes more clearly in a graph and can then determine the peaks of the echo, and autocorrelate it with itself to find which is the most likely delay for '0s' and '1s'.
+We can find the cepstrum by using a Fourier function transformation. Given that f(x) is the formula for the encoded audio, the cepstrum is $f^{-1}(ln(f(x))^{2})$. And by transforming the encoded audio message like this, we can see the echoes more clearly in a graph and can then determine the peaks of the echo, and autocorrelate it with itself to find which is the most likely delay for '0s' and '1s'.
 
 <img src = "Images/Cepstrum.png"> </img>
 
 ## Echo hiding demo in Audacity
 How to echo hide!
-1. In order to split the audio, we'll need to create regular intervals by 
+1. In order to split the audio, we'll need to create regular intervals by going to `Tools` -> `Regular Interval Labels`.
+2. A popup should appear with options.
 
 
 
