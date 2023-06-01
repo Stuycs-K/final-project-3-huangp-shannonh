@@ -22,6 +22,14 @@ Made explanation of decoding in presentation better. Added another example and s
 
 Worked with Henry to upload some tutorials on how to do stuff and added more to presentation.md. Deleted extraneous images. Added more explanations on how to do echo hiding on your own in Audacity.
 
+### 5/31/23
+
+Deleted audacity files that weren't working and added MP3 files.
+
+### 6/1/23
+
+Added tutorial pictures for how to echo hide and made changes to the instructios.
+
 ## Henry Shannon
 
 ### 5/17/23

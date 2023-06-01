@@ -66,11 +66,28 @@ We can find the cepstrum by using a Fourier function transformation. Given that 
 [include example audio file]
 
 How to echo hide!
-1. Highlight the track that you want to split.
+1. Highlight the track that you want to split (double click it).
+
+<img src = "Images/highlight.jpg"> </img>
+
 2. In order to split the audio, we'll need to create regular intervals by going to `Tools` -> `Regular Interval Labels`.
+
+<img src = "Images/intervals.jpg"> </img>
+
 3. A popup should appear with options. For `Create labels based on:`, select `Number of Labels`. This will make the length of the labels only dependent on how many there are. Then type in how many labels you would like. Then for `Adjust label interval to fit length` change the option to `Yes`. Click apply.
-4. There should be a label created at the bottom with the intervals. Now just cut the audio at the intervals manually.
+
+<img src = "Images/intervalwindow.jpg"> </img>
+
+4. There should be a label created at the bottom with the intervals. Now just cut the audio at the intervals manually with CTRL + I after clickig the part you want to cut.
+
+<img src = "Images/cut.jpg"> </img>
+
 5. For each interval, highlight the interval and go to `Effect` -> `Echo` (or on some versions of audacity `Effect` -> `Delay and Reverb` -> `Echo`). Then select the delay (phase shift) and the decay factor (amplitude).
+
+<img src = "Images/effect.jpg"> </img>
+
+<img src = "Images/effect2.jpg"> </img>
+
 6. Boom, you have audio that has a basic form of echo hiding.
 
 Note: The `Ctrl + r` keyboard shortcut will reproduce the previous transformation onto the highlighted audio clip.
