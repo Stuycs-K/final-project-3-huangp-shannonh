@@ -62,8 +62,10 @@ We can find the cepstrum by using a Fourier function transformation. Given that 
 
 ## Echo hiding demo in Audacity
 
+Download this audio file if you want to follow along: [demo.mp3](./Audio/demo.mp3)
+(Thanks to Perry for this beautiful audio)
+
 [when demo, duplicate audio file for before and after]
-[include example audio file]
 
 How to echo hide!
 1. Highlight the track that you want to split (double click it).
