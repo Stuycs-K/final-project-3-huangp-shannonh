@@ -62,7 +62,7 @@ We can find the cepstrum by using a Fourier function transformation. Given that 
 
 ## Echo hiding demo in Audacity
 
-Download this audio file if you want to follow along: [demo.mp3](./Audio/demo.mp3)
+Download this audio file if you want to follow along: [demo.mp3](./Audio/demo.mp3) (click view raw)
 (Thanks to Perry for this beautiful audio)
 
 How to echo hide!
@@ -78,11 +78,11 @@ How to echo hide!
 
 <img src = "Images/intervalwindow.jpg"> </img>
 
-4. There should be a label created at the bottom with the intervals. Now just cut the audio at the intervals manually with CTRL + I after clickig the part you want to cut.
+4. There should be a label created at the bottom with the intervals. Now just cut the audio at the intervals manually with ctrl + i after clicking the part you want to cut.
 
 <img src = "Images/cut.jpg"> </img>
 
-5. For each interval, highlight the interval and go to `Effect` -> `Echo` (or on some versions of audacity `Effect` -> `Delay and Reverb` -> `Echo`). Then select the delay (phase shift) and the decay factor (amplitude).
+5. For each interval, highlight the interval and go to `Effect` -> `Echo` (or on some versions of audacity `Effect` -> `Delay and Reverb` -> `Echo`). Then select the delay (phase shift) and the decay factor (amplitude). Remember to have one delay representing `1` and one delay representing `0` to encode a message.
 
 <img src = "Images/effect.jpg"> </img>
 
