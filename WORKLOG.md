@@ -61,3 +61,7 @@ Added a picture and the explanation for decoding echo hiding. Helped Perry with 
 
 ### 5/31/23
 Wrote the Readme.md.
+
+Sources
+https://www.ee.columbia.edu/~ywang/MSS/Project/Jeff_England_Audio_Steganography.ppt
+https://www.researchgate.net/publication/228691665_A_tutorial_review_on_steganography
