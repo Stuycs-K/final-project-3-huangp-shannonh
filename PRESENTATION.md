@@ -74,7 +74,7 @@ How to echo hide!
 
 <img src = "Images/intervals.jpg"> </img>
 
-3. A popup should appear with options. For `Create labels based on:`, select `Number of Labels`. This will make the length of the labels only dependent on how many there are. Then type in how many labels you would like. Then for `Adjust label interval to fit length` change the option to `Yes`. Click apply.
+3. A popup should appear with options. For `Create labels based on:`, select `Number of Labels`. This will make the length of the labels only dependent on how many there are. Then type in how many labels you would like. Then for `Adjust label interval to fit length` change the option to `Yes`. Click `Apply`.
 
 <img src = "Images/intervalwindow.jpg"> </img>
 
@@ -82,7 +82,7 @@ How to echo hide!
 
 <img src = "Images/cut.jpg"> </img>
 
-5. For each interval, highlight the interval and go to `Effect` -> `Echo` (or on some versions of audacity `Effect` -> `Delay and Reverb` -> `Echo`). Then select the delay (phase shift) and the decay factor (amplitude). Remember to have one delay representing `1` and one delay representing `0` to encode a message.
+5. For each interval, highlight the interval and go to `Effect` -> `Echo` (or on some versions of audacity `Effect` -> `Delay and Reverb` -> `Echo`). Then select the delay (phase shift) and the decay factor (amplitude). Remember that one delay represents `1` and another delay represents `0` to encode a bit of a message.
 
 <img src = "Images/effect.jpg"> </img>
 
@@ -91,3 +91,5 @@ How to echo hide!
 6. Boom, you have audio that has a basic form of echo hiding.
 
 Note: The `Ctrl + r` keyboard shortcut will reproduce the previous transformation onto the highlighted audio clip.
+
+Summary for encoding: `MESSAGE` -> `binary` -> `offset`
