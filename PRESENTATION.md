@@ -32,23 +32,25 @@ The echo has several changes to it:
 2. There is an offset to the sound so its phase is different from the original.
 3. The decay rate is lowered, making the sound persist for less time.
 
-![Echo Hiding sign graph](Images/echo2.png)
-
-This picture depicts two sine curves. The green one is the original signal while the blue one is the echo.
-
-The blue curve has a much lower amplitude and persists for less time. It also has a phase shift, but that is hard to tell from the picture.
+<img src="Images/EchoHidingExplanation.png" width="45%" height=40%> </img>
 
 The message is encoded in sound by making an echo for each "block" of sound. These segments can be arbitrarily divided (i.e. evenly or unevenly).
 
-<img src="Images/EchoHidingExplanation.png" width="45%" height=40%> </img>
-
 The original block of sound can be shifted by a certain offset to represent 1 or a longer offset to represent 0. Some echo hiding steganography may also represent 0 with no offset at all, meaning there is no echo for that block of sound. The offset can also be negative.
+
 
 So in order to encode a message, we can split it into binary and create an echo for each fraction of the audio depending on whether the binary is a 0 or a 1.
 
+## Autocorrelation
+In order to decode the message given the original audio file, we can compare the sound file with the echoes with the original sound file to find out where there are actually echoes. This technique is called autocorrelation.
+
+<img src = "Images/echo3.png"> </img>
+
+The green sine wave is altered with the echo while the black sine wave is just sin(x). By comparing these two we can clearly see some differences from 0 to pi, which will be where the echo is added.
+
 
 ## How to decode
-Given the encoded message, we need to find the delay before the echo is produced. Generally humans wouldn't be able to pick it up by ear, but the computer should be able to. But we can still emphasize the echo by finding the "cepstrum," which is a
+Given the encoded message, we need to find the delay before the echo is produced. Generally humans wouldn't be able to hear the echo by ear (because of the small delay and amplitude), but the computer should be able to. But we can still emphasize the echo by finding the "cepstrum," which is a
 
 We can find the cepstrum by using a Fourier function transformation. Given that f(x) is the formula for the encoded audio, the cepstrum is $f^{-1}(ln(f(x))^{2})$. And by transforming the encoded audio message like this, we can see the echoes more clearly in a graph and can then determine the peaks of the echo, and autocorrelate it with itself to find which is the most likely delay for '0s' and '1s'.
 
