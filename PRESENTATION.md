@@ -32,15 +32,13 @@ The echo has several changes to it:
 2. There is an offset to the sound so its phase is different from the original. Typically, the offset is very miniscule.
 3. The decay rate is lowered, making the sound persist for less time.
 
-<img src="Images/EchoHidingExplanation.png" width="45%" height=40%> </img>
-
 The message is encoded in sound by making an echo for each "block" of sound. These segments can be arbitrarily divided (i.e. evenly or unevenly).
 
 The original block of sound can be shifted by a certain offset to represent 1 or a longer offset to represent 0. Some echo hiding steganography may also represent 0 with no offset at all, meaning there is no echo for that block of sound. The offset can also be negative.
 
-
 So in order to encode a message, we can split it into binary and create an echo for each fraction of the audio depending on whether the binary is a 0 or a 1.
 
+<img src="Images/EchoHidingExplanation.png" width="45%" height=40%> </img>
 
 ## How to decode
 In order to decode the message given the original audio file, we can compare the sound file with the echoes with the original sound file to find out where there are actually echoes. This technique is called autocorrelation.
@@ -84,5 +82,3 @@ How to echo hide!
 6. Boom, you have audio that has a basic form of echo hiding.
 
 Note: The `Ctrl + r` keyboard shortcut will reproduce the previous transformation onto the highlighted audio clip.
-
-Summary for encoding: `MESSAGE` -> `binary` -> `offset`
