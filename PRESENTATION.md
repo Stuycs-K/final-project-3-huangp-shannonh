@@ -43,9 +43,13 @@ So in order to encode a message, we can split it into binary and create an echo 
 
 
 ## How to decode
-Given the encoded message, we need to find the delay before the echo is produced. Generally humans wouldn't be able to hear the echo by ear (because of the small delay and amplitude), but the computer should be able to. But we can still emphasize the echo by finding the "cepstrum," which is a graph to analyze periodic structures.
+In order to decode the message given the original audio file, we can compare the sound file with the echoes with the original sound file to find out where there are actually echoes. This technique is called autocorrelation.
+
+Given the encoded message only, we need to find the delay before the echo is produced. Generally humans wouldn't be able to hear the echo by ear (because of the small delay and amplitude), but the computer should be able to. But we can still emphasize the echo by finding the "cepstrum," which is a graph to analyze periodic structures.
 
 We can find the cepstrum by using a Fourier function transformation. Given that f(x) is the formula for the encoded audio, the cepstrum is $f^{-1}(ln(f(x))^{2})$. And by transforming the encoded audio message like this, we can see the echoes more clearly in a graph and can then determine the peaks of the echo, and autocorrelate it with itself to find which is the most likely delay for '0s' and '1s'.
+
+
 
 <img src = "Images/Cepstrum.png"> </img>
 
