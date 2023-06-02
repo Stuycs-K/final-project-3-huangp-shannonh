@@ -1,7 +1,5 @@
 # Audio Steganography: Echo Hiding
 
- We'll mainly look at audio steganography as waves rather than as bits for the sake of explaining the concept of encoding and decoding.
-
 Some forms of audio steganography:
 1. <b>Echo Hiding</b>
     - Hiding data in an echo
@@ -22,6 +20,8 @@ Some forms of audio steganography:
 6. Ciphers
     - Examples: morse code, musical cryptograms
 
+We'll mainly look at audio steganography as waves rather than as bits for the sake of explaining the concept of encoding and decoding.
+
 ## What is Echo Hiding?
 
 Echo hiding is encoding data into audio in the form of echoes that are imperceptible to the human ear.
@@ -29,7 +29,7 @@ Echo hiding is encoding data into audio in the form of echoes that are impercept
 It works by creating an echo and adding it to the original sound.
 The echo has several changes to it:
 1. The amplitude is lower to conceal the echo.
-2. There is an offset to the sound so its phase is different from the original.
+2. There is an offset to the sound so its phase is different from the original. Typically, the offset is very miniscule.
 3. The decay rate is lowered, making the sound persist for less time.
 
 <img src="Images/EchoHidingExplanation.png" width="45%" height=40%> </img>
